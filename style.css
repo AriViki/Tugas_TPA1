@@ -86,6 +86,31 @@ section li{
     text-align: left;
 }
 
+div.projectImage {
+    display: inline-block;
+    border: 5px solid black;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+div.projectImage img{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+div.projectImage h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+div.projectImage p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
 button {
     background-color: grey;
     color: #fff;
