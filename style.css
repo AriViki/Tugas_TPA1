@@ -56,7 +56,6 @@ main p {
     height: 450px;
 }
 
-
 .profilePicture{
     float: left;
     width: 350px;
@@ -109,6 +108,39 @@ div.projectImage h3{
 div.projectImage p{
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+main h3 {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+article{
+    display: block;
+    width: 1200px;
+}
+
+article > h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+article > img{
+    width: 500px;
+    height: 250px;
+}
+
+article > p{
+    margin: 20px 250px 10px 250px;
+    font-size: 18px;
+    text-align: center;
+}
+article > a{
+    color: #fff;
+    background-color: #333;
+    border: 10px solid #333;
+    border-radius: 5px;
 }
 
 button {
